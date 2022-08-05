@@ -1,0 +1,29 @@
+form{
+    width: auto;
+    background-color: transparent;
+}
+
+.place{
+    border: none; 
+    border-radius: 20px;
+    background-color: #ffff;
+    height: 40px;
+    padding: 15px;
+    padding-top: 12px;
+    width: 200px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    transition: width .4s;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 2px 5px 1px rgba(64, 67, 60, 0.16);
+    width: 300px;
+    transition: width .4s;
+} 
+
+.place::placeholder{
+    color: #333;
+    opacity: .4;
+    font-size: 15px;
+}
