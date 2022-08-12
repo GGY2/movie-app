@@ -8,7 +8,7 @@ div.movies-wrapper{
     min-height: calc(100vh - 80px); 
     width: 50%;
     padding: 60px 0px;
-    background-color: #ffff;
+    background-color: #2b2b2b;
 }
 
 h4{
@@ -62,9 +62,9 @@ form{
     font-size: 15px;
 }
 
-Button{
-    width: 150px;
-    margin-top: 40px;
-    height: 40px;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+Button:hover,
+Button:focus{
+    background-color: greenyellow!important;
+    border: none!important;
+    outline: none!important;
 }
